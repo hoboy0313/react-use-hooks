@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "author": "liujinghan",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "react",
     "hooks",
