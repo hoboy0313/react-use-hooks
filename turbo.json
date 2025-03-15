@@ -1,0 +1,12 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "cacheDir": "./node_modules/.turbo-cache",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "pipeline": {
+      "outputs": [".cache/**"]
+    }
+  }
+}

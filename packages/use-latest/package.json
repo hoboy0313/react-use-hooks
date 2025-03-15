@@ -1,0 +1,22 @@
+{
+  "name": "@so-fe/react-use-latest",
+  "version": "1.0.0",
+  "author": "liujinghan",
+  "license": "MIT",
+  "keywords": ["react", "hooks", "latest"],
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --clean --dts --sourcemap --format esm",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "react": "*"
+  }
+}

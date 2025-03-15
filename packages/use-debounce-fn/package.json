@@ -1,0 +1,32 @@
+{
+  "name": "@so-fe/react-use-debounce-fn",
+  "version": "1.0.0",
+  "description": "useDebounceFn hook for React",
+  "author": "liujinghan",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "debounce",
+    "hook"
+  ],
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --clean --dts --sourcemap --format esm",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0"
+  },
+  "dependencies": {
+    "@so-fe/react-use-latest": "workspace:^",
+    "@so-fe/react-use-unmount": "workspace:^",
+    "debounce": "^2.2.0"
+  },
+  "devDependencies": {
+    "react": "^19.0.0"
+  }
+}
