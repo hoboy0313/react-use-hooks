@@ -1,5 +1,5 @@
 {
-  "name": "so-fe-hooks",
+  "name": "so-fe-hooks-mono",
   "private": true,
   "packageManager": "pnpm@10.0.0",
   "engines": {
@@ -7,15 +7,17 @@
     "pnpm": ">=10.0.0"
   },
   "scripts": {
-    "dev": "pnpm -r dev",
-    "build": "pnpm -r build",
-    "prebuild": "turbo build",
+    "build": "turbo build",
     "test": "vitest",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint packages/**/*.{ts,tsx}",
+    "lint:fix": "eslint packages/**/*.{ts,tsx} --fix",
+    "publish:add": "changeset add",
+    "publish:version": "changeset version",
+    "publish:publish": "changeset publish"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.10.1",
+    "@changesets/cli": "^2.28.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.2.0",
     "@types/react": "^19.0.10",

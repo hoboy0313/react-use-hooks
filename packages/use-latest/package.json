@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "author": "liujinghan",
   "license": "MIT",
-  "keywords": ["react", "hooks", "latest"],
+  "keywords": [
+    "react",
+    "hooks",
+    "latest"
+  ],
   "main": "dist/index.mjs",
   "types": "dist/index.d.mts",
   "files": [
