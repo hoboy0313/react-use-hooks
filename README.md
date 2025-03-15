@@ -6,10 +6,11 @@
 
 该项目包含以下独立的 hooks 包:
 
-- [@so-fe/react-use-unmount](./packages/use-unmount) - React 组件卸载时执行回调
-- [@so-fe/react-use-debounce-fn](./packages/use-debounce-fn) - 为函数提供防抖能力
-- [@so-fe/react-use-latest](./packages/use-latest) - 始终获取最新值的 Hook
 - [@so-fe/react-hooks](./packages/so-fe-hooks) - 所有 hooks 的统一封装
+- [@so-fe/react-use-debounce-fn](./packages/use-debounce-fn) - 为函数提供防抖能力
+- [@so-fe/react-use-external](./packages/use-external) - 动态加载外部资源
+- [@so-fe/react-use-latest](./packages/use-latest) - 始终获取最新值的 Hook
+- [@so-fe/react-use-unmount](./packages/use-unmount) - 组件卸载时执行回调
 
 ## 📄 许可证
 
