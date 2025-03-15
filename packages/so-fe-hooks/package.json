@@ -1,6 +1,6 @@
 {
   "name": "@so-fe/react-hooks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "so-fe hooks",
   "author": "liujinghan",
   "license": "MIT",
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@so-fe/react-use-debounce-fn": "workspace:^",
+    "@so-fe/react-use-external": "workspace:^",
     "@so-fe/react-use-latest": "workspace:^",
     "@so-fe/react-use-unmount": "workspace:^"
   },

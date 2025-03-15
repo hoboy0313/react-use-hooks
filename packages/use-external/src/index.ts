@@ -19,13 +19,11 @@ interface DefaultOptions {
     keepWhenUnused?: boolean;
 }
 
-export type Options = JsOptions | CssOptions | DefaultOptions;
+type Options = JsOptions | CssOptions | DefaultOptions;
 
-// {[path]: count}
-// remove external when no used
 const EXTERNAL_USED_COUNT: Record<string, number> = {};
 
-export type Status = 'unset' | 'loading' | 'ready' | 'error';
+type Status = 'unset' | 'loading' | 'ready' | 'error';
 
 interface LoadResult {
     ref: Element;
@@ -152,4 +150,11 @@ function useExternal(path?: string, options?: Options) {
     return status;
 }
 
-export default useExternal;
+export {
+    useExternal,
+};
+
+export type {
+    Options,
+    Status,
+};
