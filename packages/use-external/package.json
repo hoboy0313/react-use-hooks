@@ -1,0 +1,27 @@
+{
+  "name": "@so-fe/react-use-external",
+  "version": "0.1.0",
+  "description": "useExternal hook for React",
+  "author": "liujinghan",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "external",
+    "hook"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --clean --dts --sourcemap --format esm",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0"
+  }
+}
