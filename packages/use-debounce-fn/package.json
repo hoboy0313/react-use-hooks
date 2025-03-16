@@ -1,6 +1,6 @@
 {
   "name": "@so-fe/react-use-debounce-fn",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "useDebounceFn hook for React",
   "author": "liujinghan",
   "license": "MIT",
